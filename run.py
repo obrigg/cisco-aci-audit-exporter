@@ -21,7 +21,7 @@ def getAPICAudit(rawcookie):
     return res.json()
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='cisco-dnac-platform-audit-by-syslog version 1.3.1')
+    parser = argparse.ArgumentParser(description='cisco-aci-audit-exporter')
     parser.add_argument('--syslog_ip', help="please enter the IP address of the syslog server")
     parser.add_argument('--syslog_port', help="please enter the UDP of the syslog server, default port is 514", type=int, default=514)
     parser.add_argument('--apic_ip', help="please enter the IP of the Cisco APIC")
