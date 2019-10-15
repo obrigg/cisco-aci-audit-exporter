@@ -1,4 +1,6 @@
 # Cisco ACI Audit Exporter
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/obrigg/cisco-aci-audit-exporter)
+
 This simple code will pull Cisco ACI's audit log every [defined period of time], in order to export it to an external program/platform.
 Initial version support export via syslog, later additional exporters will be added.
 * Technology stack: Python + Docker (optional)
