@@ -1,8 +1,8 @@
 # Cisco ACI Audit Exporter
-This simple code will pull Cisco ACI's audit log every <defined period of time>, in order to export it to an external program/platform.
+This simple code will pull Cisco ACI's audit log every [defined period of time], in order to export it to an external program/platform.
 Initial version support export via syslog, later additional exporters will be added.
 * Technology stack: Python + Docker (optional)
-* Status:  Alpha, designed to prove the ability and openess of Cisco ACI. 
+* Status:  Alpha, designed to prove the ability and openess of Cisco ACI.
 * Screenshot:
 
     Help screen:
